@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.navbar-nav{
+  font-weight: 600;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  
+}
+.navbar .navbar-nav .nav-link:hover {
+  background: linear-gradient(45deg, #3D0000,#3D0000,black,#3D0000,#3D0000);
+  color: white;
+}  
+.navbar .navbar-nav .nav-link {
+padding: 0.6em;
+font-size: 1.2em;
+transition: all 0.5s;
+}
+.navbar .navbar-brand {
+padding: 0 0.6em;
+font-size: 1.5em;
+font-weight: bold;
+}
+.nav-link{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+@media only screen and (min-width: 992px) {
+.navbar {
+  padding: 0;
+}
+.navbar .navbar-nav .nav-link {
+  padding: 1em 0.7em;
+}
+.navbar .navbar-brand {
+  padding: 0 0.8em;
+}
+}
+.img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p1{
+  margin-top: 10%;
+  font-size: 3rem;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.p2{
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  .p3{
+    font-weight: 400;
+    font-style: italic;
+    /* font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal; */
+  }
+  .boll{
+    margin-top: 20%;
+  }
+  .btn{
+    outline: none;
+    border: none;
+    background: linear-gradient(45deg,#3D0000, #3D0000, black,#3D0000,#3D0000);
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    margin-bottom: 30px ;
+      
+    }
+    .btn a{
+      text-decoration: none;
+      color: white;
+      font-family: "Noto Serif", serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100; 
+    }
+    .btn:focus{
+      box-shadow: none;
+      
+    }
+  .btn:hover{
+    box-shadow: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(45deg,black, black, #3D0000,black,black);
+
+  }
+ 
+.icon i {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.icon i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+  #aboutus{
+    
+    background-color: black;
+  }
+  .whole{
+    height: 800px;
+  }
+  .head{
+    /* margin-top: 10px; */
+    text-align: center;
+    font-family: "Courgette", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #750E21;
+  }
+  .p{
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  .headi{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #750E21;
+  }
+
+  #menu{
+background-color: black;
+display: flex;
+flex-direction: row;
+  }
+  .p4{
+    margin-top: 70px;
+    /* background-color: aqua; */
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #750E21;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  .card{
+    background-color: black;
+    border: none;
+  }
+  
+  .card-body{
+    color: white;
+  }
+  .btn3 {
+    margin-left: 30%;
+    border-radius: 15px;
+    padding: 10px;
+    background: linear-gradient(45deg,#3D0000, #3D0000, black,#3D0000,#3D0000);
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .btn3 a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn3:hover {
+    background: linear-gradient(45deg,black, black, #3D0000,black,black);
+  } @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 99;
+background-color: #ff4757;
+}
+
+.nav{
+max-width: 1200px;
+margin: auto;
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+font-size: 1.1rem;
+font-weight: 500;
+text-decoration: none;
+text-transform: uppercase;
+color:#ffffff;
+}
+
+
+
+.cart-count{
+/* position: absolute; */
+/* background-color: white; */
+/* top: -6px;
+right: 0; */
+color: white;
+padding: 3px;
+padding-left: 6px;
+padding-top: 1px;
+height: 20px;
+width: 20px;
+line-height:20px ;
+border-radius: 50%;
+z-index: -1;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+#cart-icon{
+font-size: 1.5rem;
+cursor: pointer;
+padding-top: 10px;
+}
+#cart-icon:hover{
+color: #3D0000;
+}
+
+img{
+width: 100%;
+}
+
+.container{
+max-width: 1200px;
+padding: 4rem;
+margin: auto;
+width: 100%;
+}
+.container i{
+color:white;
+width: 30px;
+height: 30px;
+text-align: center;
+position: relative;
+}
+h2.title{
+font-size: 1.1rem;
+font-weight: 500;
+margin-bottom: 1.5rem;
+color:#ffffff;
+}
+
+.shop-content{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+gap:1.5rem;
+justify-content: center;
+align-content: center;
+}
+
+.food-box{
+position: relative;
+background-color: black;
+padding: 10px;
+box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+border-radius: 3px;
+}
+  
+.pic{
+overflow: hidden;
+}
+
+.pic:hover img{
+transform: scale(1.5);
+}
+
+.food-img{
+transition: 0.4s;
+aspect-ratio: 1/1;
+object-fit: cover;
+}
+
+.food-title{
+font-size: 1rem;
+font-weight: 600;
+color:white;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.food-price{
+font-weight:500;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.add-cart{
+position: absolute;
+bottom: 0;
+right: 0;
+background: #3D0000;
+color:white;
+padding: 10px;
+font-size: 1.1rem;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.add-cart:hover{
+background-color:black;
+}
+
+
+.cart{
+position: fixed;
+top: 0;
+right: -100%;
+width: 400px;
+height: 100vh;
+overflow-y: auto;
+overflow-x: hidden;
+padding: 20px;
+background-color: black;
+box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+z-index: 100;
+}
+
+.cart-active{
+right:0;
+transition: 0.5s;
+}
+
+.cart-title{
+text-align: center;
+font-size: 1.5rem;
+font-weight: 500;
+margin-bottom: 1rem;
+padding-bottom:20px ;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+color: white;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.cart-box{
+display: grid;
+grid-template-columns: 32% 50% 18%;
+align-items: center;
+gap: 1rem;
+margin-top: 1rem;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+padding-bottom: 10px;
+color: white;
+}
+
+.cart-img{
+width: 75px;
+height: 75px;
+object-fit: cover;
+border:2px solid  rgba(0,0,0,0.1);
+padding: 5px;
+}
+.detail-box{
+display: grid;
+row-gap: 0.5rem;  
+}
+
+.price-box{
+display: flex;
+justify-content: space-between; 
+}
+
+.cart-food-title{
+font-size: 1rem;
+text-transform: uppercase;
+color:#750E21;
+font-weight: 500;
+}
+
+.cart-price{
+font-weight: 500;
+}
+
+.cart-quantity{
+border:1px solid rgba(0,0,0,0.1);
+outline:none ;
+width: 2.4rem;
+text-align: center;
+font-size: 1rem;
+/* background-color: #750E21; */
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.cart-remove{
+font-size: 24px;
+color:#750E21;
+cursor: pointer;
+}
+
+.total{
+display: flex;
+justify-content: flex-end;
+margin-top: 1.5rem;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.total-title{
+font-size: 1rem;
+font-weight: 600;
+color: white;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.total-price{
+margin-left: 0.5rem;
+color: white;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+
+.btn-buy{
+padding: 12px 20px;
+background: linear-gradient(45deg,#3D0000, #3D0000, black,#3D0000,#3D0000);
+color:#fff;
+border: none;
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+
+}
+.btn-buy a{
+text-decoration: none;
+color: white;
+font-family: "Noto Serif", serif;
+font-optical-sizing: auto;
+/* font-weight: weight; */
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+.btn-buy:hover{
+  background: linear-gradient(45deg,black, black, #3D0000,black,black);
+}
+#cart-close{
+position: absolute;
+top: 1rem;
+right: 0.8rem;
+font-size: 2rem;
+cursor: pointer;
+}
+
+
+
+
+  #Contact{
+ background-color: black;
+  }
+  .form-label{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .form-control{
+    background-color: black;
+    
+    
+  }
+  .form-control:focus{
+    border-bottom: #750E21;
+    box-shadow: none;
+    outline: none;
+    background-color: black;
+  }
+  .color{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.sell{
+  color: #750E21;
+  text-align: center;
+}
+
+  svg{
+    color: #750E21;
+  }
+  .pl{
+    color: #750E21;
+  }
+  .po{
+    color: #750E21;
+  }
+
+
+  .list-unstyled{
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .list-unstyled li a{
+    text-decoration: none;
+    color: white;
+  }
+  .list-unstyled li a:hover{
+    color: #750E21;
+  }
+  .social-media a i:hover{
+    color: #750E21;
+  }
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background: black;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(45deg, #3D0000, black);
+}
+ .piss{
+  font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+ }
+ #login{
+  background-color: black;
+ }
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #cd9cf2;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1))
+  }
+
+ 
